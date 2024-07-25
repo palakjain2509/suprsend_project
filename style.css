@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.notification-inbox {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.notification-inbox h2 {
+  margin-top: 0;
+}
+
+#notification-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notification-item {
+  background: #e9e9e9;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  transition: background 0.3s;
+}
+
+.notification-item:hover {
+  background: #d9d9d9;
+}
